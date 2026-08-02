@@ -1,7 +1,26 @@
 aid: volta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/volta.png
 name: Volta
-description: Volta is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Volta is an experiential technology company that turns passive audiences
+  into active participants in live events, retail spaces, and out-of-home advertising.
+  Its Dynamic Experience Engine, powered by the VoltaConnect backend, lets attendees
+  control stage visuals, brand content, and public displays directly from their smartphones,
+  creating audio-reactive, audience-driven activations for concerts, brand experiences,
+  museum exhibitions, and retail environments. Volta is a Techstars-backed company;
+  as of this profile it publishes a marketing site (hosted on Squarespace) with no
+  public developer portal, API documentation, SDKs, or other machine-readable API
+  surface, so this entry is limited to verified identity and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/volta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Experiential Technology
+- Live Events
+- Audience Engagement
+- Interactive Experiences
+- Out-of-Home Advertising
+- Event Technology
+- Extended Reality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://volta-xr.com/
+  url: https://www.volta-xr.com/
+- type: Support
+  url: https://www.volta-xr.com/contact
+- type: DomainSecurity
+  url: security/volta-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
